@@ -31,8 +31,8 @@ public class DemoPracticeFormTests extends TestBase {
 
         //Проверки на формы
         demoPracticeFormPage
-                .checkTitleTable("Thanks for submitting the form")
                 .checkContentVisibleTable()
+                .checkTitleTable("Thanks for submitting the form")
                 .checkContentTable("Konstantin Poludnitsyn")
                 .checkContentTable("test@gmail.com")
                 .checkContentTable("Male")
